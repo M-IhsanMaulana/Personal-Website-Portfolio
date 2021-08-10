@@ -182,22 +182,3 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
-
-// /*==================== SCROLL REVEAL ====================*/
-// const sr = ScrollReveal({
-//   distance: "90px",
-//   duration: 2000,
-//   reset: true,
-// });
-
-// // FUNCTION REVEAL CONFIGURE
-// ScrollReveal().reveal(".home__img", { origin: "right", interval: 90 });
-// ScrollReveal().reveal(".home__social-icon, .about__img, .data__bawah", { origin: "left" });
-// ScrollReveal().reveal(".home-button, .home__data, .section__title, .about__description", { origin: "top", delay: 200, interval: 100 });
-// ScrollReveal().reveal(".section__subtitle, .about__info-name, .about__buttons", { delay: 100, distance: "60px" });
-// ScrollReveal().reveal(".about__info-title", { delay: 200, origin: "top" });
-// ScrollReveal().reveal(".skills__content, .data__atas", { origin: "right" });
-// // ScrollReveal().reveal(".btn-blk", { delay: 400 });
-// // ETC
-// ScrollReveal().reveal(".project, .testimonial__container, .contact__information, .contact__form", { origin: "top", interval: 100, delay: 200 });
-// ScrollReveal().reveal(".about-heading");
